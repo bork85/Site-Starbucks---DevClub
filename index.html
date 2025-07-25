@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Starbucks</title>
+    <link rel="icon" href="/img/logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="circulo"></div>
+    <img class="Logo-Starbucks" src="img/logo.png" alt="Logo-Starbucks">
+    <div class="conteudo">
+        <div class="caixa-texto">
+            <h1>It's not just Coffee It's <span>Starbucks</span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi nobis harum accusantium animi modi illum
+                dolores totam sint, dignissimos atque recusandae id cupiditate blanditiis minima error, est asperiores,
+                hic eaque.</p>
+            <button>Clique Aqui!</button>
+        </div>
+        <div class="caixa-imagem">
+            <img class="copo" src="img/img1.png" alt="copo cafe 1">
+        </div>
+    </div>
+    <div class="menu">
+        <img onclick="trocarCor('#017143'); trocaCopo('img/img1.png')" class="menu-item" src="img/thumb1.png" alt="copo cafe thumb1">
+        <img onclick="trocarCor('#eb7495'); trocaCopo('img/img2.png')" class="menu-item" src="img/thumb2.png" alt="copo cafe thumb2">
+        <img onclick="trocarCor('#d752b1'); trocaCopo('img/img3.png')" class="menu-item" src="img/thumb3.png" alt="copo cafe thumb3">
+    </div>
+</body>
+<script src="/scrips.js"></script>
+</html>
