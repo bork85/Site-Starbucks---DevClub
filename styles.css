@@ -6,9 +6,15 @@
 }
 
 body {
+    height: 100vh;
+    width: 100vw;
     padding-top: 20px;
     padding-left: 100px;
     padding-left: 100px;
+    overflow: hidden;
+    background-image: url("./img/fundo.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .conteudo {
@@ -23,7 +29,7 @@ body {
 }
 
 h1 {
-    color: #333333;
+    color: #ffffff;
     font-size: 60px;
     font-weight: bold;
 }
@@ -35,8 +41,9 @@ span {
 }
 
 p {
-    color: #000;
+    color: #ffffff;
     font-size: 16px;
+    margin-top: 25px;
 }
 
 button {
@@ -66,6 +73,9 @@ button:hover {
 .menu {
     display: flex;
     justify-content: center;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
 }
 
 .menu-item {
